@@ -1,0 +1,46 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="../../NeuroLink.Media/logo-no-bg.ico">
+    <link rel="stylesheet" href="../../NeuroLink.Styles/Nav.css">
+    <link rel="stylesheet" href="Login.css">
+    <title>Gotcha!</title>
+</head>
+<body>
+    <nav class="nav-section">
+        <img class="nav-logo" src="../../NeuroLink.Media/logo-no-bg.png">
+        <div class="nav-links-container">
+            <span class="nav-link">HOME</span>
+            <span class="nav-link">NEUROLINK</span>
+            <span class="nav-link">WEATHER BOARD</span>
+            <span class="nav-link">ARCHIVE</span>
+            <span class="nav-link">ABOUT</span>
+        </div>
+        <div class="settings">
+            <div class="settings-line"></div>
+            <div class="settings-line"></div>
+            <div class="settings-line"></div>
+        </div>
+    </nav>
+
+    <div class="facial-detection-container">
+        <div class="reference-images" id="referenceContainer"></div>
+
+        <div class="controls">
+            <button id="startRecognition">Start Recognition</button>
+        </div>
+        
+        <div class="container">
+            <video id="video" width="640" height="480" autoplay muted></video>
+            <div id="status"></div>
+            <div id="error-message"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@vladmandic/face-api/dist/face-api.js"></script>
+    <script src="../../NeuroLink.Scripts/Nav.js"></script>
+    <script src="Login.Media/Images_Data.js"></script>
+    <script src="Login.js"></script>
+</body>

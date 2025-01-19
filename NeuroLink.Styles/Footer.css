@@ -1,0 +1,200 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(14, 31, 38);
+    margin-top: 100px;
+    color: white;
+}
+
+.footer-head, .footer-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin: 30px;
+}
+
+.horizental-line {
+    background-color: rgb(242, 218, 59);
+    height: 1px;
+    width: 90%;
+}
+
+.footer-head-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+}
+
+.footer-head-title {
+    font-size: 40px;
+    width: fit-content;
+}
+
+.footer-head-text {
+    color:rgb(200, 200, 200);
+    width: 500px;
+    font-size: 20px;
+}
+
+.footer-head-submit {
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-head-input {
+    width: 350px;
+    font-size: 20px;
+    padding: 5px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(150, 150, 150);
+    outline: none;
+    color: white;
+}
+
+.footer-head-input:focus {
+    border-bottom: 2px solid white;
+}
+
+.footer-head-button {
+    background-color: rgb(242, 218, 59);
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.footer-head-button:hover {
+    background-color: rgb(153, 135, 17);
+}
+
+.fssm-container, .neurolink-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.fssm-text {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fssm-logo {
+    width: 300px;
+}
+
+
+.neurolink-info-title {
+    font-size: 30px;
+    color: rgb(242, 218, 59);
+}
+
+.footer-body-info {
+    font-size: 15px;
+    color: rgb(200, 200, 200);
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.footer-body-info:hover {
+    color: white;
+}
+
+.footer-body-support-btn {
+    background-color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.footer-body-support-btn:hover {
+    background: none;
+    color: white;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.professor {
+    color: rgb(58, 130, 203);
+    font-weight: 900;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.5s;
+}
+
+.professor:hover {
+    color: rgb(139, 188, 237);
+}
+
+@media only screen and (max-width: 1300px) {
+    .footer {
+        height: 1200px;
+    }
+
+    .footer-head {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-body {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer-head-title {
+        font-size: 25px;
+    }
+
+    .footer-head-text {
+        font-size: 15px;
+        width: 80%;
+    }
+    
+    .footer-head-submit {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .fssm-container {
+        gap: 20px;
+    }
+
+    .fssm-logo {
+        width: 80%;
+    }   
+
+    .neurolink-info-title {
+        font-size: 20px;
+    }
+
+    .footer-head-input {
+        width: 100%;
+        font-size: 15px;
+    }
+}

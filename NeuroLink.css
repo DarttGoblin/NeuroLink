@@ -1,0 +1,214 @@
+body {overflow: hidden;}
+
+nav {
+    backdrop-filter: blur(50px);
+    background-color: rgb(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.neuro-link-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.live-stream {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.control-container {
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.lhlr-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.light-horn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-right-container {
+    display: flex;
+    gap: 20px;
+}
+
+.left, .right, .forward, .backward, .horn, .light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.horn, .light {font-size: 45px;}
+
+.forward-backward-container {
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.forward-backward-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.car-modes {
+    background-color: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    position: fixed;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 60px;
+    overflow: hidden;
+    transition: height 0.5s;
+    border: 1px solid rgb(165, 165, 165);
+}
+
+.car-modes-title {
+    align-self: center;
+    text-align: center;
+    margin: 13px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(165, 165, 165);
+    cursor: pointer;
+}
+
+.modes-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.modes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+    padding: 10px 0px;
+}
+
+.modes-spans {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 50px;
+    cursor: pointer;
+}
+
+.more-info {
+    background-color: rgb(100, 100, 100);
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.more-info:hover {
+    background-color: white;
+    color: black;
+}
+
+.gamepad-icon {color: rgb(198, 84, 255);}
+
+.microphone-icon {color: rgb(66, 157, 255);}
+
+.car-icon {color: rgb(223, 195, 56);}
+
+.road-icon {color: rgb(165, 165, 165);}
+
+.user-control-buttons:hover {color: rgb(198, 84, 255);}
+
+.user-control-voice:hover {color: rgb(66, 157, 255);}
+
+.autonomous-driving:hover {color: rgb(223, 195, 56);}
+
+.follow-line:hover {color: rgb(165, 165, 165);}
+
+.close-car-modes {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(165, 165, 165);
+    align-self: center;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.car-modes-description-container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 50px;
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+    font-weight: 600;
+    width: 400px;
+}
+
+.got-it {
+    font-size: 15px;
+    color: white;
+    cursor: pointer;   
+}
+
+.alert-div {
+    margin-top: 400px;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    padding: 50px;
+    gap: 20px;
+}
+
+.alert-message, .alert-icons {
+    color: rgb(228, 39, 39);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.no_signal {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}

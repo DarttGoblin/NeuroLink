@@ -1,0 +1,50 @@
+nav {
+    background-color: black;
+}
+
+.facial-detection-container {
+    margin-top: 150px;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+video {
+    border: 2px solid #333;
+    max-width: 100%;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+.controls {
+    margin: 20px 0;
+}
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+#status {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.reference-images {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.reference-images img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #333;
+}

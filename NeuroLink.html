@@ -1,0 +1,92 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="NeuroLink.Media/logo-no-bg.ico">
+    <link rel="stylesheet" href="NeuroLink.Styles/Nav.css">
+    <link rel="stylesheet" href="NeuroLink.css">
+    <title>NeuroLink</title>
+</head>
+<body>
+    <nav class="nav-section">
+        <img class="nav-logo" src="NeuroLink.Media/logo-no-bg.png">
+        <div class="nav-links-container">
+            <span class="nav-link">HOME</span>
+            <span class="nav-link">NEUROLINK</span>
+            <span class="nav-link">WEATHER BOARD</span>
+            <span class="nav-link">ARCHIVE</span>
+            <span class="nav-link">ABOUT</span>
+        </div>
+        <div class="settings">
+            <div class="settings-line"></div>
+            <div class="settings-line"></div>
+            <div class="settings-line"></div>
+        </div>
+    </nav>
+    
+    <section class="neuro-link-section">
+        <video class="live-stream" autoplay muted loop>
+            <source src="">
+        </video>
+
+        <img class="no_signal" src="NeuroLink.Media/no_signal.gif"> <!-- To be removed and displayed only after live stream error -->
+
+        <div class="control-container">
+            <div class="lhlr-container">
+                <div class="light-horn-container">
+                    <i class="light control-buttons fa fa-bolt"></i>
+                    <i class="horn control-buttons fa fa-bullhorn"></i>
+                </div>
+                <div class="left-right-container">
+                    <i class="left control-buttons fa fa-chevron-left"></i>
+                    <i class="right control-buttons fa fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="forward-backward-container">
+                <i class="forward control-buttons fa fa-chevron-up"></i>
+                <i class="backward control-buttons fa fa-chevron-down"></i>
+            </div>
+        </div>
+        
+        <div class="car-modes">
+            <span class="car-modes-title">Choose Car Mode</span>
+            <div class="modes-container">
+                <div class="modes">
+                    <i class="gamepad-icon fa-solid fa-gamepad"></i>
+                    <span class="modes-spans user-control-buttons">User Control (Buttons)</span>
+                    <i class="more-info fa-solid fa-info"></i>
+                </div>
+                <div class="modes">
+                    <i class="microphone-icon fa-solid fa-microphone"></i>
+                    <span class="modes-spans user-control-voice">User Control (Voice)</span>
+                    <i class="more-info fa-solid fa-info"></i>
+                </div>
+                <div class="modes">
+                    <i class="car-icon fa-solid fa-car"></i>
+                    <span class="modes-spans autonomous-driving">Autonomous Driving</span>
+                    <i class="more-info fa-solid fa-info"></i>
+                </div>
+                <div class="modes">
+                    <i class="road-icon fa-solid fa-road"></i>
+                    <span class="modes-spans follow-line">Follow Line</span>
+                    <i class="more-info fa-solid fa-info"></i>
+                </div>
+                <span class="close-car-modes">Close</span>
+            </div>
+            <div class="car-modes-description-container">
+                <span class="car-modes-description"></span>
+                <span class="got-it">Got it</span>
+            </div>
+        </div>
+
+        <div class="alert-div">
+            <i class="alert-icons fa fa-exclamation-triangle"></i>
+            <span class="alert-message">VOICE COMMAND NOT RECOGNISED</span>
+            <i class="alert-icons fa fa-exclamation-triangle"></i>
+        </div>
+    </section>
+
+    <script src="NeuroLink.Scripts/Nav.js"></script>
+    <script src="NeuroLink.js"></script>
+</body>
