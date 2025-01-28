@@ -132,7 +132,7 @@ footer {
 .info-container {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
 }
 
 .professor {
