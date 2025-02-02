@@ -4,44 +4,44 @@ const about_report_button = document.querySelector('.about-report-button');
 
 const images = [
     'About.Media/drone.jpg',
+    'About.Media/smart_house.jpg',
     'About.Media/mini_robot.jpg',
     'About.Media/smart_glasses.jpg',
-    'About.Media/tank.jpg',
-    'About.Media/tiny_car.jpg',
+    'About.Media/ai_stethoscope.jpg',
+    'About.Media/ball_balancing_robot.jpg',
     'About.Media/water_plant_system.jpg',
     'About.Media/bug_killer.jpg',
     'About.Media/smart_trashbin.jpg',
     'About.Media/lightbulb_clap_switch.jpg',
     'About.Media/car_parking_system.jpg',
-    'About.Media/smart_house.jpg',
 ];
 
 const titles = [
     'Drone',
+    'Smart House',
     'Mini Robot',
     'Smart Glasses',
-    'Tank',
-    'Tiny Car',
+    'Intelligent Stethoscope',
+    'Ball Balancing Robot',
     'Water Plant System',
     'Bug Killer',
     'Smart Trashbin',
     'Lightbulb Clap Switch',
     'Car Parking System',
-    'Smart House',
 ];
 
 const descriptions = [
     'A versatile drone designed for autonomous navigation and surveillance in challenging environments.',
+    'Smart House implementing IOT concept by creating a plant care, security, motion detection, light, door, window, fan control, weather monitoring systems',
     'A mini robot capable of performing precise tasks using advanced robotics and control systems.',
     'Smart glasses equipped with AR capabilities for enhanced productivity and entertainment.',
-    'A remote-controlled tank showcasing robust design and functionality for various terrains.',
-    'A tiny car project demonstrating innovative control mechanisms for compact transportation solutions.',
+    'A compact AI stethoscope with a Raspberry Pi for real-time analysis, housed in a sleek white box with a stethoscope head and LED indicator for status updates.',
+    'The Ball Balancing Robot uses a Raspberry Pi and robotic arms to stabilize a ball on a glass surface with real-time motion control.',
     'An automated water plant system ensuring efficient irrigation for sustainable agriculture.',
     'A bug killer system using advanced pest control techniques to maintain a hygienic environment.',
     'A smart trashbin that segregates waste intelligently and promotes sustainable waste management. Interface for garbage collectors showing location of available bins, full ones. Provide rewards in exchange',
     'A lightbulb clap switch system for convenient hands-free control of lighting.',
     'An automated car parking system streamlining parking management with precision and efficiency.',
-    'Smart House implementing IOT concept by creating a plant care, security, motion detection, light, door, window, fan control, weather monitoring systems',
 ];
 
 
