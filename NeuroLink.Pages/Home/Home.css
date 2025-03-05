@@ -75,14 +75,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .videos-container-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
+    width: 100%;
 }
 
 .video-item {
@@ -90,7 +91,7 @@
 }
 
 .long-video {
-    width: calc(100% + 30px);
+    width: calc(100% + 10px);
 }
 
 .video-text {
@@ -156,10 +157,19 @@
 
 @media only screen and (max-width: 900px) {
     .videos-content-container {
-        width: 80%;
+        width: 90%;
+    }
+
+    .videos-container-row {
+        display: flex;
+        flex-direction: column;
     }
 
     .videos-container {
+        width: 100%;
+    }
+
+    .video-item {
         width: 100%;
     }
 
