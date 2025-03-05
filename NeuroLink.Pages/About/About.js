@@ -1,6 +1,7 @@
 const next_projects_container = document.querySelector('.next-projects-container');
 const about_explore_button = document.querySelector('.about-explore-button');
 const about_report_button = document.querySelector('.about-report-button');
+const about_sd_button = document.querySelector('.about-sd-button');
 
 const images = [
     'About.Media/drone.jpg',
@@ -84,4 +85,8 @@ about_explore_button.onclick = function() {
 
 about_report_button.onclick = function() {
     window.open('https://drive.google.com/file/d/1RGrQQ9Mx45HM5Cir3HsaqlC0wO6Bj88W/view?usp=drive_link', '_blank');
+}
+
+about_sd_button.onclick = function() {
+    window.open('https://drive.google.com/file/d/1ajIuW5BESeeRPQRG-fIpfOQdJaIr6VdZ/view?usp=drive_link', '_blank');
 }
