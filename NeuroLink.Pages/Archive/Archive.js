@@ -63,7 +63,11 @@ const memories = [
     {src: "Archive.Media/Memories/memory52.jpg", title: "Amphibian Allies", description: "NeuroDrive chilling beside a frog lake, where cutting-edge technology meets ribbit-worthy serenity."},
     {src: "Archive.Media/Memories/memory53.jpg", title: "Grace on Gravel", description: "NeuroDrive atop a pile of gravel—because even robots deserve a gritty, dramatic photoshoot."},
     {src: "Archive.Media/Memories/memory54.jpg", title: "Dirt Don't Hurt", description: "NeuroDrive testing soil humidity, showing that even dirt can't stop its quest for greatness."},
-    {src: "Archive.Media/Memories/memory55.jpg", title: "Kitten Finale", description: "A heartwarming end to the project with a tiny kitten, celebrating innovation with adorable whiskers and soft purrs. A perfect way to close this chapter!"}
+    {src: "Archive.Media/Memories/memory55.jpg", title: "Kitten Finale", description: "A heartwarming end to the project with a tiny kitten, celebrating innovation with adorable whiskers and soft purrs. A perfect way to close this chapter!"},
+    {src: "Archive.Media/Memories/memory56.jpg", title: "Turing Test", description: "NeuroDrive navigates a tabletop maze, sensing, deciding, and adapting—proving its intelligence one calculated move at a time."},
+    {src: "Archive.Media/Memories/memory57.mp4", title: "Freedom", description: "NeuroDrive moves ahead, sensing its path, while I follow—its tethered lifeline in hand, a step away from true independence."},
+    {src: "Archive.Media/Memories/memory58.jpg", title: "Road to Dawn", description: "NeuroDrive stands before handcrafted signs, bathed in sunset hues—an early glimpse of a future where machines read the road."},
+    {src: "Archive.Media/Memories/memory59.jpg", title: "Echoes of Innovation", description: "Standing before curious minds, I share NeuroDrive’s journey—ideas exchanged, questions sparked, and the future of automation unfolding."},
 ];
 
 memories.forEach(memory => {
