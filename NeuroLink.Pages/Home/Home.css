@@ -126,11 +126,11 @@
 .innovation-images-container {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 30px;
 }
 
 .innovation-image {
-    width: 40%;
+    width: 30%;
 }
 
 .fields-container {
@@ -147,7 +147,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     margin-top: 50px;
 }
 

@@ -41,7 +41,7 @@ const memories = [
     {src: "Archive.Media/Memories/memory30.jpg", title: "NeuroDrive 2.0: Rising Above", description: "The upgraded, taller version of NeuroDrive showcased its complexity and the brilliance of its creator, standing strong as a marvel of design."},
     {src: "Archive.Media/Memories/memory31.jpg", title: "Two Perfections Holding Each Other", description: "When innovation and awesomeness collide—my partner in crime and I, ready to conquer the world with a little smart toy car"},
     {src: "Archive.Media/Memories/memory32.jpg", title: "NeuroDrive 3.0: Polished and Proud", description: "A new chapter of brilliance—NeuroDrive 3.0, sleek and refined, ready to conquer the road and the future. Excited for what's next!"},
-    // {src: "Archive.Media/Memories/memory33.jpg", title: "The Dream Team in Action", description: "A moment captured with two brilliant minds behind NeuroDrive, sharing a laugh that could power circuits with joy."},
+    {src: "Archive.Media/Memories/memory33.jpg", title: "The Dream Team in Action", description: "A moment captured with two brilliant minds behind NeuroDrive, sharing a laugh that could power circuits with joy."},
     {src: "Archive.Media/Memories/memory34.mp4", title: "The Franken-Battery", description: "A jury-rigged battery of 9-volt cells sparked chaos, but powered NeuroDrive to life!"},
     {src: "Archive.Media/Memories/memory35.jpg", title: "Time For a Party", description: "A dazzling display of yellow lights turned NeuroDrive into a showstopper. Time for a party?"},
     {src: "Archive.Media/Memories/memory36.mp4", title: "NeuroDrive! ARE YOU A SPY", description: "The ultrasonic sensor scanned the room, a robotic dance of light and anticipation."},
@@ -67,7 +67,17 @@ const memories = [
     {src: "Archive.Media/Memories/memory56.jpg", title: "Turing Test", description: "NeuroDrive navigates a tabletop maze, sensing, deciding, and adapting—proving its intelligence one calculated move at a time."},
     {src: "Archive.Media/Memories/memory57.mp4", title: "Freedom", description: "NeuroDrive moves ahead, sensing its path, while I follow—its tethered lifeline in hand, a step away from true independence."},
     {src: "Archive.Media/Memories/memory58.jpg", title: "Road to Dawn", description: "NeuroDrive stands before handcrafted signs, bathed in sunset hues—an early glimpse of a future where machines read the road."},
-    {src: "Archive.Media/Memories/memory59.jpg", title: "Echoes of Innovation", description: "Standing before curious minds, I share NeuroDrive’s journey—ideas exchanged, questions sparked, and the future of automation unfolding."},
+    {src: "Archive.Media/Memories/memory59.jpg", title: "Echoes of Innovation", description: "Standing before curious minds, I share NeuroDrive's journey—ideas exchanged, questions sparked, and the future of automation unfolding."},
+    {src: "Archive.Media/Memories/memory60.jpg", title: "Presenting NeuroDrive at the Core", description: "Sharing NeuroDrive's journey amidst the faculty buzz—answering questions and sparking curiosity."},
+    {src: "Archive.Media/Memories/memory61.jpg", title: "Showcasing NeuroDrive with Friends", description: "Capturing a proud moment with friends while showcasing NeuroDrive and reflecting on our journey."},
+    {src: "Archive.Media/Memories/memory62.jpg", title: "NeuroDrive: A Vision Shared", description: "Explaining NeuroDrive's vision with our coordinator and an entrepreneur, exploring future possibilities."},
+    {src: "Archive.Media/Memories/memory63.mp4", title: "NeuroDrive in Action: The Discussion", description: "Diving into NeuroDrive's future with our coordinator and an entrepreneur in a dynamic exchange."},
+    {src: "Archive.Media/Memories/memory64.jpg", title: "Presenting to the President", description: "Presenting NeuroDrive to the university president with our coordinator, sharing vision and impact."},
+    {src: "Archive.Media/Memories/memory65.jpg", title: "Good Girl", description: "NeuroDrive stands proud and still—drawing eyes as I explain her concept, purpose, and the intelligence behind every move she's built to make."},
+    {src: "Archive.Media/Memories/memory66.jpg", title: "Explaining NeuroDrive to Peers", description: "We break down NeuroDrive—sharing its purpose, design, and how it brings automation closer to everyday understanding."},
+    {src: "Archive.Media/Memories/memory67.jpg", title: "Words That Inspire", description: "Our coordinator shares the event's vision with the press—speaking on innovation, all while embodying the brilliance."},
+    {src: "Archive.Media/Memories/memory68.jpg", title: "United by NeuroDrive", description: "We capture a moment of shared pride—celebrating the journey, the challenges, and the bond forged through building something together."},
+    {src: "Archive.Media/Memories/memory69.jpg", title: "Bright Future 🖤", description: "Side by side with my partner, we share more than a project—it's a bond built through passion, and a vision we brought to life together."},
 ];
 
 memories.forEach(memory => {
