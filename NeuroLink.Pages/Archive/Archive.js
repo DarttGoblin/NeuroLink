@@ -73,11 +73,11 @@ const memories = [
     {src: "Archive.Media/Memories/memory62.jpg", title: "NeuroDrive: A Vision Shared", description: "Explaining NeuroDrive's vision with our coordinator and an entrepreneur, exploring future possibilities."},
     {src: "Archive.Media/Memories/memory63.mp4", title: "NeuroDrive in Action: The Discussion", description: "Diving into NeuroDrive's future with our coordinator and an entrepreneur in a dynamic exchange."},
     {src: "Archive.Media/Memories/memory64.jpg", title: "Presenting to the President", description: "Presenting NeuroDrive to the university president with our coordinator, sharing vision and impact."},
-    {src: "Archive.Media/Memories/memory65.jpg", title: "Good Girl", description: "NeuroDrive stands proud and still—drawing eyes as I explain her concept, purpose, and the intelligence behind every move she's built to make."},
-    {src: "Archive.Media/Memories/memory66.jpg", title: "Explaining NeuroDrive to Peers", description: "We break down NeuroDrive—sharing its purpose, design, and how it brings automation closer to everyday understanding."},
-    {src: "Archive.Media/Memories/memory67.jpg", title: "Words That Inspire", description: "Our coordinator shares the event's vision with the press—speaking on innovation, all while embodying the brilliance."},
-    {src: "Archive.Media/Memories/memory68.jpg", title: "United by NeuroDrive", description: "We capture a moment of shared pride—celebrating the journey, the challenges, and the bond forged through building something together."},
-    {src: "Archive.Media/Memories/memory69.jpg", title: "Bright Future 🖤", description: "Side by side with my partner, we share more than a project—it's a bond built through passion, and a vision we brought to life together."},
+    {src: "Archive.Media/Memories/memory65.JPG", title: "Good Girl", description: "NeuroDrive stands proud and still—drawing eyes as I explain her concept, purpose, and the intelligence behind every move she's built to make."},
+    {src: "Archive.Media/Memories/memory66.JPG", title: "Explaining NeuroDrive to Peers", description: "We break down NeuroDrive—sharing its purpose, design, and how it brings automation closer to everyday understanding."},
+    {src: "Archive.Media/Memories/memory67.JPG", title: "Words That Inspire", description: "Our coordinator shares the event's vision with the press—speaking on innovation, all while embodying the brilliance."},
+    {src: "Archive.Media/Memories/memory68.JPG", title: "United by NeuroDrive", description: "We capture a moment of shared pride—celebrating the journey, the challenges, and the bond forged through building something together."},
+    {src: "Archive.Media/Memories/memory69.JPG", title: "Bright Future 🖤", description: "Side by side with my partner, we share more than a project—it's a bond built through passion, and a vision we brought to life together."},
 ];
 
 memories.forEach(memory => {
